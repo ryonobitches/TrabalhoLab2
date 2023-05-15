@@ -103,11 +103,11 @@ button {
 
 @media(width<700px){
     #nome{
-        margin: auto;
+        margin: 100px;
         margin-top: -10px;
     }
     #mensagem{
         margin-top: 30px;
-        margin: auto;
+        margin: 100px;
     }
 }
