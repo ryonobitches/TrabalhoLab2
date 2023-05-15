@@ -1,0 +1,102 @@
+body {
+    background: rgb(38,38,37);
+    background-repeat: no-repeat;
+}
+
+* {
+    font-family:  'Inter', sans-serif;
+}
+
+#pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5 {
+    text-align: center;
+    color: white;
+}
+
+#respq1, #respq2, #respq3, #respq4, #respq5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 40px;
+}
+
+button {
+    width: 200px;
+    height: 65px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 18px;
+    background: rgb(54, 54, 54);
+    color: white;
+    cursor: pointer;
+}
+
+#btn5q1S, #btn5q2S, #btn5q3S, #btn5q4S, #btn5q5S  {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#suresp1, #suresp2, #suresp3, #suresp4, #suresp5 {
+    align-items: center;
+    color: white;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#resp1input, #resp2input, #resp3input, #resp4input, #resp5input {
+    height: 40px;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background: transparent;
+}
+
+#resp1input:focus, #resp2input:focus, #resp3input:focus, #resp4input:focus, #resp5input:focus{
+    outline: none;
+}
+
+#btnVoltq {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#pergunta2, #pergunta3, #pergunta4, #pergunta5  {
+    display: none;
+}
+
+#terminal6 {
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+#h10{
+    color: rgb(231, 231, 231);
+}
+
+#h30{
+    color: rgb(79, 77, 77);
+}
+
+#mensagem {
+    scale:0;
+}
+
+#nome {
+    height: 60px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background: rgb(54, 54, 54);
+}
+
+#nome:focus{
+    outline: none;
+}
+
+#submit6{
+    margin-left: -200px;
+}
