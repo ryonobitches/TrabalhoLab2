@@ -100,3 +100,10 @@ button {
 #submit6{
     margin-left: -200px;
 }
+
+@media(width<700px){
+    #nome{
+        margin-left: 300px;
+        margin-top: -50px;
+    }
+}
