@@ -1,0 +1,75 @@
+body {
+    background:linear-gradient(to bottom, rgb(42, 42, 42), rgb(22, 22, 22)) ;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+#green {
+    color: greenyellow;
+}
+
+#h0 {
+    color:white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#botões12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+
+#sobre {
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    border: 3px solid greenyellow;
+    border-radius: 1rem;
+    background: rgb(54, 54, 54);
+    color: white;
+    font-weight: 800;
+    box-shadow: 2px 2px 5px rgb(28, 28, 28);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#começar {
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    border: 3px solid greenyellow;
+    border-radius: 1rem;
+    background: rgba(54, 54, 54);
+    font-weight: 800;
+    box-shadow: 2px 2px 5px rgb(28, 28, 28);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#a1 {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+}
+
+@media (width<700px) {
+    body{
+        background: rgb(33, 33, 33);
+    }
+
+    #h0 {
+        font-size: 50px;
+    }
+    #botões12 {
+        margin-top: 200px;
+    }
+}
