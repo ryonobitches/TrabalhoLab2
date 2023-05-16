@@ -4,134 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>questionario</title>
-    <link rel="stylesheet" href="styleQ.css">
+    <title>Projeto casa sustentávael</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./java.js"></script>
 </head>
 <body>
-
-    <!-- Pergunta 1 -->
-    
-    <div id="pergunta1">
-        <h1 id="h0-1">
-            1 - Do que você gostaria de que fosse feita as paredes da Casa sustentavél:
-        </h1>
-        <div id="respq1">
-            <button id="btn1q1" onclick="a1()">Papelão</button>
-            <button id="btn2q1" onclick="b1()">Isopor</button>
-            <button id="btn3q1" onclick="c1()">Tijolos</button>
-            <button id="btn4q1" onclick="d1()">Caixas de papelao</button>
-            <h3 id="btn5q1S" onclick="eresp1()">
-                Nenhuma?
-            </h3>
+    <section>
+        <div id="inicio">
+            <h1 id="h0">
+                Projeto casa <tag id="green">sustentávael</tag>
+            </h1>
         </div>
-    </div>
-    <div id="suresp1">
-        <h1 id="h0-1e">
-            1 - Do que você gostaria de que fossem feita as paredes da Casa sustentavél:
-        </h1>
-        <input id="resp1input" type="text" placeholder="Sua resposta:">
-        <button id="sub1" onclick="e1()">Enviar</button>
-        <h3 id="btnVoltq" onclick="volt1()">Voltar a marcar</h3>
-    </div>
-
-    <!-- Pergunta 2 -->
-
-    <div id="pergunta2">
-        <h1 id="h0-2">
-            2 - Qual material você acha que poderia ser ultilizado no piso da casa sustentável:
-        </h1>
-        <div id="respq2">
-            <button id="btn1q2" onclick="a2()">Piso de bamboo</button>
-            <button id="btn2q2" onclick="b2()">Madeira de reflorestamento</button>
-            <button id="btn3q2" onclick="c2()">Piso de caixa de leites recicladas</button>
-            <button id="btn4q2" onclick="d2()">Papelão</button>
-            <h3 id="btn5q2S" onclick="eresp2()">
-                Nenhuma?
-            </h3>
+    </section>
+        <div id="botões12">
+            <button id="sobre">
+                <a id="a1" href="./indexS.html" target="_blank">Sobre</a>
+            </button>
+            <button id="começar">
+                <a id="a1"href="./indexQ.html" target="_blank"> Começar</a>
+            </button>
         </div>
-    </div>
-    <div id="suresp2">
-        <h1 id="h0-2e">
-            2 - Qual material você acha que poderia ser ultilizado no piso da casa sustentável:
-        </h1>
-        <input id="resp2input" type="text" placeholder="Sua resposta:">
-        <button id="sub2" onclick="e2()">Enviar</button>
-        <h3 id="btnVoltq" onclick="volt2()">Voltar a marcar</h3>
-    </div>
+    <section>
 
-
-    <!-- Pergunta 3 -->
-
-
-    <div id="pergunta3">
-        <h1 id="h0-3">
-            3 - Qual tipo de móbilia você gostaria de ver sendo ultilizada na casa sustentavel:        
-        </h1>
-        <div id="respq3">
-            <button id="btn1q3" onclick="a3()">Cadeiras</button>
-            <button id="btn2q3" onclick="b3()">Mesa de Jantar</button>
-            <button id="btn3q3" onclick="c3()">Prateleiras</button>
-            <button id="btn4q3" onclick="d3()">Armarios</button>
-            <h3 id="btn5q3S" onclick="eresp3()">
-                Nenhuma?
-            </h3>
-        </div>
-    </div>
-    <div id="suresp3">
-        <h1 id="h0-3e">
-            3 - Qual tipo de móbilia você gostaria de ver sendo ultilizada na casa sustentavel:
-        </h1>
-        <input id="resp3input" type="text" placeholder="Sua resposta:">
-        <button id="sub3" onclick="e3()">Enviar</button>
-        <h3 id="btnVoltq" onclick="volt3()">Voltar a marcar</h3>
-    </div>
-
-
-    <!-- Pergunta 4 -->
-
-
-    <div id="pergunta4">
-        <h1 id="h0-4">
-            4 - O que poderia ser adicionado no projeto:
-        </h1>
-        <div id="respq4">
-            <button id="btn1q4" onclick="a4()">+ Móveis</button>
-            <button id="btn2q4" onclick="b4()">+ Comodos</button>
-            <button id="btn3q4" onclick="c4()">+ Divulgação ( panfletos etc )</button>
-            <button id="btn4q4" onclick="d4()">Tecnologia (videos etc...)</button>
-            <h4 id="btn5q4S" onclick="eresp4()">
-                Nenhuma?
-            </h4>
-        </div>
-    </div>
-    <div id="suresp4">
-        <h1 id="h0-4e">
-            4 - O que poderia ser adicionado no projeto:
-        </h1>
-        <input id="resp4input" type="text" placeholder="Sua resposta:">
-        <button id="sub4" onclick="e4()">Enviar</button>
-        <h3 id="btnVoltq" onclick="volt4()">Voltar a marcar</h3>
-    </div>
-
-
-    <!-- Pergunta 5 -->
-
-
-    <div id="suresp5">
-        <h1 id="h0-5">
-            5 - Na sua opinião oque poderia ser adicionado de Novo no projeto?
-        </h1>
-        <input id="resp5input" type="text" placeholder="Sua resposta:">
-        <button id="sub5" onclick="e5()">Enviar</button>
-    </div>
-    <div id="terminal6">
-        <h1 id="h10">Você terminou o questionario!</h1>
-        <h3 id="h30"> Coloque seu nome no campo abaixo para enviar as respostas! </h3>
-        <form action="https://formsubmit.co/felipegabriel.4928@gmail.com" method="POST">
-            <input id="nome" type="text" name="name" required>
-            <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
-            <button id="submit6"type="submit">Enviar</button>
-       </form>
-    </div>
+    </section>
 </body>
 </html>
