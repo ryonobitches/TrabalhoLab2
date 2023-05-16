@@ -1,112 +1,75 @@
 body {
-    background: rgb(38,38,37);
-    background-repeat: no-repeat;
+    background:linear-gradient(to bottom, rgb(42, 42, 42), rgb(22, 22, 22)) ;
 }
 
-* {
-    font-family:  'Inter', sans-serif;
+*{
+    font-family: 'Inter', sans-serif;
 }
 
-#pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5 {
+#green {
+    color: greenyellow;
+}
+
+#h0 {
+    color:white;
+    font-size: 90px;
     text-align: center;
-    color: white;
+    margin-top: 100px;
+
 }
 
-#respq1, #respq2, #respq3, #respq4, #respq5 {
+#botões12 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-    gap: 40px;
-}
-
-button {
-    width: 200px;
-    height: 65px;
-    border-radius: 1rem;
-    border: none;
-    font-size: 18px;
-    background: rgb(54, 54, 54);
-    color: white;
-    cursor: pointer;
-}
-
-#btn5q1S, #btn5q2S, #btn5q3S, #btn5q4S, #btn5q5S  {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-#suresp1, #suresp2, #suresp3, #suresp4, #suresp5 {
-    align-items: center;
-    color: white;
     justify-content: center;
-    display: none;
     flex-direction: column;
-    gap: 30px;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
 }
 
-#resp1input, #resp2input, #resp3input, #resp4input, #resp5input {
-    height: 40px;
-    color: white;
+#sobre {
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    border: 3px solid greenyellow;
     border-radius: 1rem;
-    border: 1px solid white;
-    background: transparent;
-}
-
-#resp1input:focus, #resp2input:focus, #resp3input:focus, #resp4input:focus, #resp5input:focus{
-    outline: none;
-}
-
-#btnVoltq {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-#pergunta2, #pergunta3, #pergunta4, #pergunta5  {
-    display: none;
-}
-
-#terminal6 {
-    display: none;
-    color: white;
-    text-align: center;
-}
-
-#h10{
-    color: rgb(231, 231, 231);
-}
-
-#h30{
-    color: rgb(79, 77, 77);
-}
-
-#mensagem {
-    scale:0;
-}
-
-#nome {
-    height: 60px;
-    border-radius: 1rem;
-    border: none;
-    font-size: 18px;
-    color: white;
     background: rgb(54, 54, 54);
+    color: white;
+    font-weight: 800;
+    box-shadow: 2px 2px 5px rgb(28, 28, 28);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#nome:focus{
-    outline: none;
+#começar {
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    border: 3px solid greenyellow;
+    border-radius: 1rem;
+    background: rgba(54, 54, 54);
+    font-weight: 800;
+    box-shadow: 2px 2px 5px rgb(28, 28, 28);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#submit6{
-    margin-left: -200px;
+#a1 {
+    color: white;
+    text-decoration: none;
+    height: 100%;
 }
 
-@media(width<700px){
-    #nome{
-        margin-left: 30px;
+@media (width<700px) {
+    body{
+        background: rgb(33, 33, 33);
     }
-    #mensagem{
-        margin-top: 30px;
-        margin-left: 30px;
+
+    #h0 {
+        font-size: 50px;
+    }
+    #botões12 {
+        margin-top: 200px;
     }
 }
