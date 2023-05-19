@@ -5,7 +5,7 @@ var r1,r2,r3,r4,r5
 
 
 function a1() {
-    r1 = "Papelão";
+    r1 = "1 - Paredes: a) Papelão";
     document.getElementById("pergunta2").style.display = "block";
     document.getElementById("pergunta1").style.display = "none";
     console.log(r1)
@@ -13,7 +13,7 @@ function a1() {
 
 
 function b1() {
-    r1 = "Isopor";
+    r1 = "1 - Paredes: b) Isopor";
     document.getElementById("pergunta2").style.display = "block";
     document.getElementById("pergunta1").style.display = "none";
     console.log(r1)
@@ -21,7 +21,7 @@ function b1() {
 
 
 function c1() {
-    r1 = "Tijolos";
+    r1 = "1 - Paredes: c) Tiijolos";
     document.getElementById("pergunta2").style.display = "block";
     document.getElementById("pergunta1").style.display = "none";
     console.log(r1)
@@ -31,7 +31,7 @@ function e1() {
     if (document.getElementById("resp1input").value == ""){
         alert('Campo de resposta livre não pode estar vazio!')
     }else {
-    r1 = document.getElementById("resp1input").value;
+    r1 = "1 - Paredes: resposta aberta = "+document.getElementById("resp1input").value;
     document.getElementById("pergunta2").style.display = "block";
     document.getElementById("suresp1").style.display = "none";
     console.log(r1)
@@ -39,7 +39,7 @@ function e1() {
 }
 
 function d1() {
-    r1 = "Caixas de papelao";
+    r1 = "1 - Paredes: d) Caixas de Papelão";
     document.getElementById("pergunta2").style.display = "block";
     document.getElementById("pergunta1").style.display = "none";
     console.log(r1)
@@ -60,7 +60,7 @@ function volt1() {
 
 
 function a2() {
-    r2 = "Piso de bamboo";
+    r2 = ", 2 - Piso: a) Piso de Bamboo";
     document.getElementById("pergunta3").style.display = "block";
     document.getElementById("pergunta2").style.display = "none";
     console.log(r2)
@@ -68,7 +68,7 @@ function a2() {
 
 
 function b2() {
-    r2 = "Madeira de reflorestamento";
+    r2 = ", 2 - Piso: b) Caixa de leites reciclavéis";
     document.getElementById("pergunta3").style.display = "block";
     document.getElementById("pergunta2").style.display = "none";
     console.log(r2)
@@ -76,7 +76,7 @@ function b2() {
 
 
 function c2() {
-    r2 = "Piso de caixa de leites recicladas";
+    r2 = ", 2 - Piso: c) Papelão";
     document.getElementById("pergunta3").style.display = "block";
     document.getElementById("pergunta2").style.display = "none";
     console.log(r2)
@@ -86,7 +86,7 @@ function e2() {
     if (document.getElementById("resp2input").value == ""){
         alert('Campo de resposta livre não pode estar vazio!')
     }else {
-    r2 = document.getElementById("resp2input").value;
+    r2 =", 2 - Piso: resposta livre = "+document.getElementById("resp2input").value;
     document.getElementById("pergunta3").style.display = "block";
     document.getElementById("suresp2").style.display = "none";
     console.log(r2)
@@ -94,7 +94,7 @@ function e2() {
 }
 
 function d2() {
-    r2 = "Papelão";
+    r2 = ", 2 - Piso: d) nenhum piso";
     document.getElementById("pergunta3").style.display = "block";
     document.getElementById("pergunta2").style.display = "none";
     console.log(r2)
@@ -116,7 +116,7 @@ function volt2() {
 
 
 function a3() {
-    r3 = "Cadeiras";
+    r3 = ", 3 - Mobilia que gostaria de ver no projeto: a) Cadeiras";
     document.getElementById("pergunta4").style.display = "block";
     document.getElementById("pergunta3").style.display = "none";
     console.log(r3)
@@ -124,7 +124,7 @@ function a3() {
 
 
 function b3() {
-    r3 = "Mesa de Jantar";
+    r3 = ", 3 -Mobilia que gostaria de ver no projeto: b) Mesa de Jantar";
     document.getElementById("pergunta4").style.display = "block";
     document.getElementById("pergunta3").style.display = "none";
     console.log(r3)
@@ -132,7 +132,7 @@ function b3() {
 
 
 function c3() {
-    r3 = "Prateleiras";
+    r3 = "3 - Mobilia que gostaria de ver no projeto: c) Prateleiras";
     document.getElementById("pergunta4").style.display = "block";
     document.getElementById("pergunta3").style.display = "none";
     console.log(r3)
@@ -142,7 +142,8 @@ function e3() {
     if (document.getElementById("resp3input").value == ""){
         alert('Campo de resposta livre não pode estar vazio!')
     }else {
-    r3 = ("paredes - ")+document.getElementById("resp3input").value;
+    r3 = (", 3 - Mobilia que gostaria de ver no projeto: resposta livre = ")
+    +document.getElementById("resp3input").value;
     document.getElementById("pergunta4").style.display = "block";
     document.getElementById("suresp3").style.display = "none";
     console.log(r1)
@@ -150,7 +151,7 @@ function e3() {
 }
 
 function d3() {
-    r3 = "Armarios";
+    r3 = ", 3 - Mobilia que gostaria de ver no projeto: d) armarios";
     document.getElementById("pergunta4").style.display = "block";
     document.getElementById("pergunta3").style.display = "none";
     console.log(r3)
@@ -172,7 +173,7 @@ function volt3() {
 
 
 function a4() {
-    r4 = "+ Móveis";
+    r4 = ", 4 - oque poderia ser adicionado no projeto: a) + moveis";
     document.getElementById("suresp5").style.display = "flex";
     document.getElementById("pergunta4").style.display = "none";
     console.log(r4)
@@ -180,7 +181,7 @@ function a4() {
 
 
 function b4() {
-    r4 = " + Comodos";
+    r4 = ", 4 - oque poderia ser adicionado no projeto: b) + comodos";
     document.getElementById("suresp5").style.display = "flex";
     document.getElementById("pergunta4").style.display = "none";
     console.log(r4)
@@ -188,7 +189,7 @@ function b4() {
 
 
 function c4() {
-    r4 = " Divulgação ( panfletos etc ) ";
+    r4 = ", 4 - oque poderia ser adicionado no projeto: c) + moveis Divulgação ( panfletos etc ) ";
     document.getElementById("suresp5").style.display = "flex";
     document.getElementById("pergunta4").style.display = "none";
     console.log(r4)
@@ -198,7 +199,8 @@ function e4() {
     if (document.getElementById("resp4input").value == ""){
         alert('Campo de resposta livre não pode estar vazio!')
     }else {
-    r4 = document.getElementById("resp4input").value;
+    r4 =", 4 - oque poderia ser adicionado no projeto: resposta livre = "+
+    document.getElementById("resp4input").value;
     document.getElementById("suresp5").style.display = "flex";
     document.getElementById("suresp4").style.display = "none";
     console.log(r4)
@@ -206,7 +208,7 @@ function e4() {
 }
 
 function d4() {
-    r4 = "Tecnologia (videos etc...)";
+    r4 = ", 4 - oque poderia ser adicionado no projeto: d) + tecnologia (videos etc)";
     document.getElementById("suresp5").style.display = "flex";
     document.getElementById("pergunta4").style.display = "none";
     console.log(r4)
@@ -230,15 +232,11 @@ function e5() {
     if (document.getElementById("resp5input").value == ""){
         alert('Campo de resposta livre não pode estar vazio!')
     }else {
-    r5 = document.getElementById("resp5input").value;
+    r5 ="5 - oque poderia ser adicionado no projeto = "+
+    document.getElementById("resp5input").value;
     document.getElementById("terminal6").style.display = "block";
     document.getElementById("suresp5").style.display = "none";
     console.log(r5)
     }
-document.getElementById("mensagem").innerHTML = "1 - Do que você gostaria de que fossem feita as paredes da Casa sustentavél = "
-+r1+" | 2 - Qual material você acha que poderia ser ultilizado no piso da casa sustentável = "
-+r2+" | 3 - Qual tipo de móbilia você gostaria de ver sendo ultilizada na casa sustentavel = "
-+r3+" | 4 - O que poderia ser adicionado no projeto = "
-+r4+" | 5 - Na sua opinião oque poderia ser adicionado de Novo no projeto = "
-+r5;
+document.getElementById("mensagem").innerHTML = r1+r2+r3+r4+r5
 }
